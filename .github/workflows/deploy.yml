@@ -19,5 +19,5 @@ jobs:
             cd /var/www
             ls
             rm -rf sg.aldhaneka.me
-            git clone https://aldhanekaa:${{secrets.GITHUB_TOKEN}}@github.com/aldhaneka-lab/DO-autodeploy-website.git 
+            git clone https://aldhanekaa:${{secrets.GITHUB_TOKEN}}@github.com/aldhaneka-lab/DO-autodeploy-website.git sg.aldhaneka.me
             sudo service nginx restart
