@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Static Website
-        uses:
-          - appleboy/ssh-action@v0.1.2
+        uses: appleboy/ssh-action@v0.1.2
 
         with:
           host: ${{secrets.SSH_HOST}} # IP address of the server you wish to ssh into
